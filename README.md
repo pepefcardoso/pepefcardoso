@@ -1,4 +1,5 @@
 Hi there, I'm Pedro Paulo Fernandes Cardoso 👋
+
 I'm a Junior Developer with a passion for creating responsive and user-friendly mobile applications. My journey in tech started with a background in accounting, but I quickly found my true calling in software development. Currently, I'm enhancing my skills in Information Systems and diving deep into the world of coding.
 
 What I Bring to the Table:
