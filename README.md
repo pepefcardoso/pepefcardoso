@@ -1,15 +1,7 @@
-Hi there, I'm Pedro Paulo Fernandes Cardoso 👋
+💻 Desenvolvedor em Ascensão | Estudante de Análise e Desenvolvimento de Sistemas
 
-I'm a Junior Developer with a passion for creating responsive and user-friendly mobile applications. My journey in tech started with a background in accounting, but I quickly found my true calling in software development. Currently, I'm enhancing my skills in Information Systems and diving deep into the world of coding.
+Olá! Sou Pedro Paulo, apaixonado por tecnologia e inovação. Atualmente, curso Análise e Desenvolvimento de Sistemas no IFSC, e acumulo mais de dois anos de experiência no desenvolvimento de aplicativos e sistemas, atuando com tecnologias como Flutter, Laravel, C#, HTML, CSS, JavaScript e SQL.Minha trajetória inclui contribuições significativas em projetos que envolvem desde o desenvolvimento front-end até soluções robustas no back-end, sempre focando em entregar aplicações otimizadas, escaláveis e centradas no usuário. Também sou adepto de metodologias ágeis, práticas de revisão de código e uso de ferramentas como Git para integração contínua.
 
-What I Bring to the Table:
-Front-End Development Expertise: Specializing in Flutter, I love crafting interfaces that are not only visually appealing but also intuitive for users.
-Back-End Development Skills: While my focus is on the front end, I'm also skilled in back-end development using Laravel.
-A Strong Foundation in Accounting: My experience as a Project Consultant and Accounting Assistant has given me a unique perspective on optimizing business processes and improving financial performance.
-Lifelong Learner: I'm constantly upgrading my skills and have certifications in Microsoft Excel, Laravel, Flutter, PHP 8, and Flutter Bloc.
-Multilingual Proficiency: Fluent in Portuguese, proficient in English, intermediate in Spanish, and with basic knowledge of German.
-My Projects:
-University Election System: A project that showcases my ability to handle complex data and user interfaces.
-Restaurant Finder App: Designed for dietary restrictions, this app reflects my commitment to inclusive and user-friendly design.
-Let's Connect:
-I'm always open to collaborating on projects or just having a chat about what's possible in the world of tech. Feel free to reach out to me!
+🎯 Objetivo: Meu propósito é evoluir constantemente como desenvolvedor, colaborando em equipes dinâmicas para resolver problemas reais e criar soluções inovadoras. Tenho interesse especial em projetos desafiadores que me permitam aprender e crescer profissionalmente.
+
+🌟 Diferenciais:Experiência em desenvolvimento multiplataforma com Flutter.Conhecimento em APIs REST e bancos de dados relacionais.Habilidade em comunicação e trabalho em equipe.Curiosidade e dedicação para aprender novas tecnologias e processos.
