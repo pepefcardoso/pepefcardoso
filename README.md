@@ -1,42 +1,47 @@
 # Pedro Paulo Fernandes Cardoso
 
-**Software Engineer | C# (.NET) Backend Specialist | ERP & Financial Systems | PostgreSQL**
+**Software Engineer | C# (.NET) Backend Specialist | ERP & Financial Systems | PostgreSQL | CI/CD**
 
 ## About Me
 
-Software Engineer with over 3 years of experience building scalable ERP, web, desktop, and mobile applications. My profile combines production engineering skills—such as Clean Architecture, Domain-Driven Design (DDD), and CI/CD—with 3.5 years of prior experience as a Financial and Data Analyst.
-
-This hybrid background gives me first-hand knowledge of the business logic that ERP software is built to model, including tax rules, sales cycles, inventory management, and financial reporting. I focus on optimizing complex queries in relational databases like PostgreSQL and building solutions that ensure technical implementations perfectly align with real operational needs.
+Software Engineer with 2.5+ years building ERP and financial systems in C# (.NET) and PostgreSQL, backed by 3.5 years as a Financial & Data Analyst. This hybrid background gives me first-hand knowledge of the business logic ERP software is built to model — tax rules, sales cycles, inventory, financial reporting — combined with production engineering skill in Clean Architecture, Domain-Driven Design, and CI/CD.
 
 ### Experience Timeline
 
-* **Software Engineer (2023 – Present):** Building scalable ERP systems, APIs, and mobile applications.
+* **Software Engineer (2023 – Present):** Building scalable ERP systems and APIs in C# (.NET) and PostgreSQL.
 * **Financial & Data Analyst (2019 – 2023):** Driving data-driven decisions, business process automation, and financial planning.
 
 ## Technologies & Tools
 
 * **Languages & Frameworks:** C# (.NET), TypeScript, JavaScript, Node.js, PHP (Laravel), Python, Flutter (Dart).
-* **Frontend:** React, Next.js, Vue.js, Tailwind CSS, shadcn/ui[cite: 2, 3].
-* **Backend & Architecture:** Clean Architecture, Domain-Driven Design (DDD), REST APIs, Outbox Pattern[cite: 2, 3].
-* **Quality & Tests:** Unit & Integration Tests (xUnit, Vitest, Playwright), CI/CD[cite: 2, 3].
-* **Databases & Infra:** PostgreSQL, SQL, MySQL, MongoDB, Redis, Docker, Terraform, AWS (ECS, ALB, RDS, S3), Google Cloud[cite: 2, 3].
+* **Frontend:** React, Next.js, Tailwind CSS, shadcn/ui.
+* **Backend & Architecture:** Clean Architecture, Domain-Driven Design (DDD), REST APIs, Outbox Pattern.
+* **Quality & Tests:** Unit & Integration Tests (xUnit, Vitest, Playwright), CI/CD.
+* **Databases & Infra:** PostgreSQL, SQL, MySQL, MongoDB, Redis, Docker, Terraform, AWS (ECS, ALB, RDS, S3), Google Cloud.
 
 ## Featured Projects
 
-* **[CFC Hub](https://www.google.com/search?q=https://github.com/pepefcardoso/cfc_hub):** Full-stack, multi-tenant ERP platform designed for Driving Schools (CFCs).
-* **Backend & Architecture:** Built with C# (.NET) utilizing Clean Architecture and Domain-Driven Design (DDD). Uses Entity Framework Core with PostgreSQL, and Redis for distributed caching and rate limiting. Implements the Outbox pattern with dedicated background workers for asynchronous tasks like PDF contract generation and SES email notifications.
-* **Frontend:** Next.js 15 application featuring Tailwind CSS and shadcn/ui components. Ensures high reliability with comprehensive E2E testing via Playwright and unit testing with Vitest.
-* **Infrastructure:** Fully containerized with Docker and provisioned as Infrastructure as Code (IaC) on AWS (ECS, ALB, RDS, ElastiCache, S3) using Terraform.
-* **Business Logic:** Models complex domain rules including scheduling (student/instructor availability and calendar views), financial management (payment plans, overdue tracking), automated contract management, and strict compliance features like LGPD data erasure and Detran integration.
+* **[CFC Hub](https://github.com/pepefcardoso/cfc_hub):** Full-stack, multi-tenant ERP platform for Driving Schools (CFCs) — the closest match to my production domain (ERP, financial logic, compliance).
+  * **Backend & Architecture:** C# (.NET) with Clean Architecture and DDD. Entity Framework Core + PostgreSQL, Redis for distributed caching and rate limiting. Outbox pattern with background workers for async tasks (PDF contract generation, SES email).
+  * **Frontend:** Next.js 15, Tailwind CSS, shadcn/ui. E2E coverage via Playwright, unit tests via Vitest.
+  * **Infrastructure:** Dockerized, Terraform-provisioned AWS (ECS, ALB, RDS, ElastiCache, S3).
+  * **Business Logic:** Scheduling (student/instructor availability), financial management (payment plans, overdue tracking), automated contract management, LGPD data erasure, Detran integration.
 
-* **[Temperinho API](https://github.com/pepefcardoso/temperinho-api):** Laravel 11 REST API powering the entire Temperinho ecosystem. Implements a clean Service Layer architecture with API Resources, Form Requests, and Policies. Key features: Sanctum + Socialite authentication, Meilisearch full-text search, S3 file storage with transactional rollback, Redis caching with tag-based invalidation, queued email notifications via SES, plan-based usage limits, and Docker Compose production deployment.
-* **[Temperinho Frontend](https://github.com/pepefcardoso/temperinho-front):** Public-facing Next.js 15 interface for the Temperinho culinary platform, combining SSR for SEO with client components for interactivity. Features a recipe catalog, blog, user dashboard, favorites, ratings, comments, Google OAuth, dynamic sitemap, AdSense integration, Sentry monitoring, and full LGPD compliance.
-* **[Temperinho Admin](https://github.com/pepefcardoso/temperinho-admin):** Next.js 15 admin dashboard with complete CRUD management for users, companies, plans, subscriptions, payments, recipes, blog posts, and moderation queues. Built around a generic `CrudPage<T>` component powered by TanStack Table, React Hook Form, Zod, and Zustand.
-* **[Leve Sabor](https://github.com/pepefcardoso/leve_sabor_app):** Flutter mobile app for a healthy food platform featuring a blog, a restaurant/business directory, and full user authentication. Uses BLoC for state management, GoRouter for navigation, Dio for HTTP, and Kiwi for dependency injection — with search, filtering, favorites, and ratings throughout.
-* **[Volunteer Platform](https://github.com/pepefcardoso/evento-social):** Full-stack volunteer management platform connecting organizations with volunteers. Built with Laravel 12 and React via Inertia.js, featuring a multi-role system (Admin, Institute Manager, Volunteer), institution approval workflows, event and slot management, and application tracking — all tested with PestPHP.
-* **[Feedback Hub](https://github.com/pepefcardoso/feedback-hub):** Full-stack feedback management platform built with Next.js, Express, Prisma ORM, and PostgreSQL. Features JWT authentication via HTTP-only cookies with proper cross-domain configuration for separate frontend/backend deployments.
-* **[Real Estate Search Engine](https://github.com/pepefcardoso/imobiliarias):** Real-time property aggregator that translates search filters into the specific parameters of 30–40 real estate agencies, queries them in parallel via `ThreadPoolExecutor`, and delivers a unified, paginated results table. Built with Python and FastAPI.
-* **[WhatsApp Pharmacy Chatbot](https://github.com/pepefcardoso/chatbot-farma):** Intelligent WhatsApp chatbot for pharmacy customer service, built with Python, Flask, and Groq's `llama-3.3-70b` LLM. Maintains per-session conversation history, answers questions from an editable JSON knowledge base, and automatically escalates out-of-scope queries to a human attendant via WhatsApp.
+* **[Feedback Hub](https://github.com/pepefcardoso/feedback-hub):** Full-stack feedback management platform — Next.js, Express, Prisma ORM, PostgreSQL. JWT authentication via HTTP-only cookies with cross-domain configuration for separate frontend/backend deployments.
+
+* **[Temperinho API](https://github.com/pepefcardoso/temperinho-api):** Laravel 11 REST API with a clean Service Layer architecture (API Resources, Form Requests, Policies). Sanctum + Socialite auth, Meilisearch, S3 storage with transactional rollback, Redis caching with tag-based invalidation, queued SES email, Docker Compose deployment.
+
+* **[Temperinho Frontend](https://github.com/pepefcardoso/temperinho-front)** / **[Temperinho Admin](https://github.com/pepefcardoso/temperinho-admin):** Public Next.js 15 platform (SSR + client components, recipe catalog, blog, ratings, Google OAuth) and companion admin dashboard (generic `CrudPage<T>` with TanStack Table, React Hook Form, Zod, Zustand).
+
+<details>
+<summary>Other Projects</summary>
+
+* **[Leve Sabor](https://github.com/pepefcardoso/leve_sabor_app):** Flutter mobile app — healthy food platform with BLoC, GoRouter, Dio, Kiwi DI.
+* **[Volunteer Platform](https://github.com/pepefcardoso/evento-social):** Laravel 12 + React/Inertia.js, multi-role system, tested with PestPHP.
+* **[Real Estate Search Engine](https://github.com/pepefcardoso/imobiliarias):** Python/FastAPI aggregator querying 30–40 agencies in parallel via `ThreadPoolExecutor`.
+* **[WhatsApp Pharmacy Chatbot](https://github.com/pepefcardoso/chatbot-farma):** Python/Flask chatbot using Groq's `llama-3.3-70b`, with session history and JSON knowledge base.
+
+</details>
 
 ## Education & Certifications
 
@@ -53,7 +58,6 @@ This hybrid background gives me first-hand knowledge of the business logic that 
 ## Contact
 
 * **Location:** Tubarão - Santa Catarina, Brazil
-
 * **LinkedIn:** [linkedin.com/in/pepefcardoso](https://www.linkedin.com/in/pepefcardoso/)
 * **Portfolio:** [pepefcardosoportfolio.lovable.app](https://pepefcardosoportfolio.lovable.app/)
 * **Email:** pppfcardoso@gmail.com
