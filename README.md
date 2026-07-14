@@ -16,20 +16,19 @@ This hybrid background gives me first-hand knowledge of the business logic that 
 ## Technologies & Tools
 
 * **Languages & Frameworks:** C# (.NET), TypeScript, JavaScript, Node.js, PHP (Laravel), Python, Flutter (Dart).
-* **Frontend:** React, Next.js, Vue.js, Tailwind CSS, shadcn/ui.
-* **Backend & Architecture:** Clean Architecture, Domain-Driven Design (DDD), REST APIs.
-* **Quality & Tests:** Unit & Integration Tests (xUnit, Vitest, Playwright), CI/CD.
-* **Databases & Infra:** PostgreSQL, SQL, MySQL, MongoDB, Redis, Docker, AWS, Google Cloud.
-
-## Education & Certifications
-
-* **B.S. in Systems Analysis and Development** – IFSC (Expected 12/2026).
-* **Google Cloud Computing Foundations Certificate** – Google Cloud.
-* **Skill Badges (Google Cloud):** Prepare Data for ML APIs, Build a Secure Network, Implement Load Balancing.
+* **Frontend:** React, Next.js, Vue.js, Tailwind CSS, shadcn/ui[cite: 2, 3].
+* **Backend & Architecture:** Clean Architecture, Domain-Driven Design (DDD), REST APIs, Outbox Pattern[cite: 2, 3].
+* **Quality & Tests:** Unit & Integration Tests (xUnit, Vitest, Playwright), CI/CD[cite: 2, 3].
+* **Databases & Infra:** PostgreSQL, SQL, MySQL, MongoDB, Redis, Docker, Terraform, AWS (ECS, ALB, RDS, S3), Google Cloud[cite: 2, 3].
 
 ## Featured Projects
 
-* **[Personal Portfolio](https://github.com/pepefcardoso/dev-personal-portfolio):** Portfolio developed with React, TypeScript, and Styled Components to showcase my professional journey.
+* **[CFC Hub](https://www.google.com/search?q=https://github.com/pepefcardoso/cfc_hub):** Full-stack, multi-tenant ERP platform designed for Driving Schools (CFCs).
+* **Backend & Architecture:** Built with C# (.NET) utilizing Clean Architecture and Domain-Driven Design (DDD). Uses Entity Framework Core with PostgreSQL, and Redis for distributed caching and rate limiting. Implements the Outbox pattern with dedicated background workers for asynchronous tasks like PDF contract generation and SES email notifications.
+* **Frontend:** Next.js 15 application featuring Tailwind CSS and shadcn/ui components. Ensures high reliability with comprehensive E2E testing via Playwright and unit testing with Vitest.
+* **Infrastructure:** Fully containerized with Docker and provisioned as Infrastructure as Code (IaC) on AWS (ECS, ALB, RDS, ElastiCache, S3) using Terraform.
+* **Business Logic:** Models complex domain rules including scheduling (student/instructor availability and calendar views), financial management (payment plans, overdue tracking), automated contract management, and strict compliance features like LGPD data erasure and Detran integration.
+
 * **[Temperinho API](https://github.com/pepefcardoso/temperinho-api):** Laravel 11 REST API powering the entire Temperinho ecosystem. Implements a clean Service Layer architecture with API Resources, Form Requests, and Policies. Key features: Sanctum + Socialite authentication, Meilisearch full-text search, S3 file storage with transactional rollback, Redis caching with tag-based invalidation, queued email notifications via SES, plan-based usage limits, and Docker Compose production deployment.
 * **[Temperinho Frontend](https://github.com/pepefcardoso/temperinho-front):** Public-facing Next.js 15 interface for the Temperinho culinary platform, combining SSR for SEO with client components for interactivity. Features a recipe catalog, blog, user dashboard, favorites, ratings, comments, Google OAuth, dynamic sitemap, AdSense integration, Sentry monitoring, and full LGPD compliance.
 * **[Temperinho Admin](https://github.com/pepefcardoso/temperinho-admin):** Next.js 15 admin dashboard with complete CRUD management for users, companies, plans, subscriptions, payments, recipes, blog posts, and moderation queues. Built around a generic `CrudPage<T>` component powered by TanStack Table, React Hook Form, Zod, and Zustand.
@@ -39,14 +38,17 @@ This hybrid background gives me first-hand knowledge of the business logic that 
 * **[Real Estate Search Engine](https://github.com/pepefcardoso/imobiliarias):** Real-time property aggregator that translates search filters into the specific parameters of 30–40 real estate agencies, queries them in parallel via `ThreadPoolExecutor`, and delivers a unified, paginated results table. Built with Python and FastAPI.
 * **[WhatsApp Pharmacy Chatbot](https://github.com/pepefcardoso/chatbot-farma):** Intelligent WhatsApp chatbot for pharmacy customer service, built with Python, Flask, and Groq's `llama-3.3-70b` LLM. Maintains per-session conversation history, answers questions from an editable JSON knowledge base, and automatically escalates out-of-scope queries to a human attendant via WhatsApp.
 
-## GitHub Stats
+## Education & Certifications
+
+* **B.S. in Systems Analysis and Development** – IFSC (Expected 12/2026).
+* **Google Cloud Computing Foundations Certificate** – Google Cloud.
+* **Skill Badges (Google Cloud):** Prepare Data for ML APIs, Build a Secure Network, Implement Load Balancing.
 
 ## Languages
 
 * **Portuguese:** Native / Fluent.
 * **English:** Proficient (Full Professional).
 * **Spanish & Italian:** Basic.
-
 
 ## Contact
 
