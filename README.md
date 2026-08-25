@@ -25,23 +25,12 @@ I focus on delivering **testable, maintainable systems** that solve real busines
 
 ---
 
-### [ERP Inventory API](https://github.com/pepefcardoso/erp-inventory) *(planned - in progress)*  
-**Clean‑architecture API for inventory management** - the project I’m building to demonstrate my ideal tech stack.
-
-- **Tech:** .NET 10, ASP.NET Core, MediatR (CQRS), FluentValidation, EF Core + PostgreSQL.
-- **Quality:** Full unit & integration test coverage (xUnit, WebApplicationFactory), CI/CD pipeline.
-- **Design:** Domain invariants, repository pattern, and clear separation of concerns.
-- **Status:** Core CRUD and stock‑movement logic are implemented; CI/CD and deployment to Render/Fly.io are next.
-
----
-
-### [Temperinho API](https://github.com/pepefcardoso/temperinho-api)  
+### [Temperinho API](https://github.com/pepefcardoso/temperinho)  
 **Laravel 11 REST API** for an inclusive cooking platform - demonstrates my ability to build structured, testable backends in PHP.
 
 - Service layer, API Resources, Form Requests, Policies.
 - Sanctum + Socialite auth, Meilisearch, S3 with transactional rollback, Redis tag‑based caching, queued SES email.
 
-### [Temperinho Frontend](https://github.com/pepefcardoso/temperinho-front) & [Temperinho Admin](https://github.com/pepefcardoso/temperinho-admin)  
 **Next.js 15 public site** (SSR + client components, recipe/blog catalog, ratings, Google OAuth) and a **companion admin dashboard** built with generic `<CrudPage<T>>`, TanStack Table, React Hook Form, Zod, Zustand.
 
 ---
@@ -53,13 +42,7 @@ I focus on delivering **testable, maintainable systems** that solve real busines
 
 - **[gestao-casa](https://github.com/pepefcardoso/gestao-casa):** Cross-platform property management app (Next.js web + Expo mobile) in a TypeScript/Nx monorepo. Backend via Hono + Drizzle ORM + PostgreSQL.
 
-- **[mise](https://github.com/pepefcardoso/mise):** Multi-tenant SaaS for food establishments (Next.js + Hono + Drizzle + Better Auth with Organizations plugin).
-
-- **[Feedback Hub](https://github.com/pepefcardoso/feedback-hub):** Full‑stack feedback management platform - Next.js frontend + Express backend, Prisma ORM, PostgreSQL, JWT auth via HTTP‑only cookies (cross‑domain ready).
-
 - **[Real Estate Search Engine](https://github.com/pepefcardoso/imobiliarias):** Python/FastAPI aggregator that queries 30-40 agencies in parallel.
-
-- **[WhatsApp Pharmacy Chatbot](https://github.com/pepefcardoso/chatbot-farma):** Python/Flask chatbot using Groq’s LLM with session history.
 
 </details>
 
